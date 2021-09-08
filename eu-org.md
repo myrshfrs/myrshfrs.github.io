@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+## 分享一下eu.org免费域名的申请和使用
+
+申请的教程网上很多，直接[搜索eu.org免费域名申请](https://duckduckgo.com/?t=ffsb&q=%E6%90%9C%E7%B4%A2eu.org%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7&ia=web)。我按照教程来遇到的一个问题就是在dnspod里面添加域名之后，选择check for correctness of server names + replies on SOA + replies on NS(recommended)总是会失败，试了好多次都不行，后来我就选择了check for correctness of server names。看来这么做也是可行的，不影响申请。不过我等了很长时间，从开始申请到申请成功大概用了一个多月。
+
+申请成功之后，我做了这些事情：
+
+* 把NS改成cloudflare
+* 用improvmx做了域名邮箱，免费版可以设置一个域名，25个别名，附件限制10Mb。也可以通过gmail实现smtp发信。目前对于我是够用了。
+
+[back](./)
