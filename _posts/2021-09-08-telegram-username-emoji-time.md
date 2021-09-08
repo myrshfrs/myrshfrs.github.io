@@ -7,7 +7,7 @@ author: zhangwf
 
 想想，telegram的用户名能够显示emoji形式的现在时间，是不是很酷炫。我之前在telegram上看见有人的用户名可以显示现在的时间，就从网上搜了搜怎么能够实现这个功能的教程，后面自己做了一些改进，现在可以显示emoji形式的时间了，实现起来并不复杂，一个python小脚本就可以了。最终效果如下图。
 
-![username_with_emoji_time](https://images2.imgbox.com/4b/9f/MxCZgbGK_o.png)
+![username_with_emoji_time](/assets/img/2021-09-08-telegram-username-emoji-time/1.png)
 
 为了保证脚本能稳定运行，建议安装在vps上。我是用debian 10系统的一个vps运行的。下面介绍安装使用的方法。
 
