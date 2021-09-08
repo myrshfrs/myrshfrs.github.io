@@ -4,3 +4,4 @@ description: Just a little page.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+markdown: GFM
