@@ -11,7 +11,7 @@ author: zhangwf
 
 第一步，在网址栏中输入cnBeta首页的网址：https://www.cnbeta.com ，编码设置为utf-8，点击reload载入网页源码，同时建议在浏览器中打开网页作为对比。feed43免费版限制网页大小不超过100kB，所以只载入了一部分，不过影响不大。
 
-![step1](https://images2.imgbox.com/95/11/lvaomNng_o.png)
+![step1](/assets/img/creat-rss-with-feed43/feed43-1.PNG)
 
 第二步，在源码中找到想要订阅的部分。可以直接CTRL+F搜索。比如我想订阅最新的新闻，第一条是“Cherry推出Stream Desktop Recharge可充电无线键鼠套装”，直接搜索“Cherry”，就可以在源码中找到这部分.然后需要找到这部分完整的源码，方法就是再找一两个同级的项目，比如下面两条新闻，在源码中看看这两条的源码都有哪些共同的，然后选一个复制粘贴到Item (repeatable) Search Pattern中。
 
