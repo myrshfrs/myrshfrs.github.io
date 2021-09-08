@@ -1,5 +1,6 @@
 ---
 layout: default
+date: 2021-09-08
 ---
 
 ## 分享一下eu.org免费域名的申请和使用
