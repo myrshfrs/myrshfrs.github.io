@@ -40,7 +40,7 @@ author: zhangwf
 ```
 这是我把上面粘贴到Item (repeatable) Search Pattern中编辑出来的Search Pattern。`{%}`代表我需要的内容，`{*}`代表忽略的内容。注意每行后面必须都要加上`{*}`。
 
-```html
+```
 <div class="item" id="{%}">{*}
 <dt><a href="{%}" target="_blank">{%}</a></dt>{*}
 <dd>{%}</dd>{*}
