@@ -38,7 +38,7 @@ author: zhangwf
 <ul><li><a href="https://www.cnbeta.com/articles/tech/1175553.htm" title="台铁宣布其电子客票开始支持Apple Pay支付" target="_blank">台铁宣布其电子客票开始支持Apple Pay支付</a></li><li><a href="https://www.cnbeta.com/articles/tech/1175551.htm" title="为吸引三星电子建170亿美元芯片厂 美得州泰勒市拟大规模减免财产税" target="_blank">为吸引三星电子建170亿美元芯片厂 美得州泰勒市拟大规模减免财产税</a></li><li><a href="https://hot.cnbeta.com/articles/game/1175549.htm" title="游戏工委：已有63家单位响应防止未成年人沉迷通知" target="_blank">游戏工委：已有63家单位响应防止未成年人沉迷通知</a></li></ul> </div>
 </div>
 ```
-这是我把上面粘贴到Item (repeatable) Search Pattern中编辑出来的Search Pattern。{%}代表我需要的内容，{\*}代表忽略的内容。注意每行后面必须都要加上{\*}。
+这是我把上面粘贴到Item (repeatable) Search Pattern中编辑出来的Search Pattern。`{%}`代表我需要的内容，`{*}`代表忽略的内容。注意每行后面必须都要加上`{*}`。
 
 ```html
 <div class="item" id="{%}">{*}
@@ -54,7 +54,7 @@ author: zhangwf
 
 ![pattern](https://images2.imgbox.com/7c/8d/EoKcvOPA_o.png)
 
-编辑好Item (repeatable) Search Pattern之后，点击Extract。如果Pattern没问题的话，会提示“OK (XX items found)”，并且在下面能看到每条item的内容。如果没找到或者报错的话就再调整Pattern。下面是extracted出来的内容。每个item有10个参数（上面我们用{%}选择的内容）。
+编辑好Item (repeatable) Search Pattern之后，点击Extract。如果Pattern没问题的话，会提示“OK (XX items found)”，并且在下面能看到每条item的内容。如果没找到或者报错的话就再调整Pattern。下面是extracted出来的内容。每个item有10个参数（上面我们用`{%}`选择的内容）。
 
 ![extracted](https://images2.imgbox.com/17/89/lFqyYvft_o.png)
 
