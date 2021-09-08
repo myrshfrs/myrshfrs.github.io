@@ -37,15 +37,6 @@
       </header>
       <section>
 
-        <ul>
-          {% for post in site.posts %}
-            <li>
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-              <b><p>{{ post.excerpt }}</p></b>
-            </li>
-          {% endfor %}
-        </ul>
-
       {{ content }}
 
       </section>
