@@ -40,8 +40,8 @@
         <ul>
           {% for post in site.posts %}
             <li>
-              <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-              <p>{{ post.excerpt }}</p>
+              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <b><p>{{ post.excerpt }}</p></b>
             </li>
           {% endfor %}
         </ul>
