@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> 
-      if page.title  page.title 
+      {% if page.title  page.title %}
           &#8211; 
-      endif 
+      {% endif %}
           site.title 
     </title>
     <meta name="description" content="if page.description page.description else site.description endif ">
-    if page.keywords 
+    {% if page.keywords %}
           <meta name="keywords" content=" page.keywords | join: ', ' ">
-    endif
+    {% endif %}
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
