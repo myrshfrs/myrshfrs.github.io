@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 date: 2021-09-08
 ---
 
