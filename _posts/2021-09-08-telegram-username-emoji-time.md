@@ -102,4 +102,4 @@ systemctl status changetelegramname@zhangwf
 
 打开电脑或手机上的telegram，看看自己的名字会不会随时间变化吧。
 
-[back](./)
+[back]({{ site.url }})
