@@ -11,4 +11,4 @@ layout: default
 
 # [分享一下eu.org免费域名的申请和使用](./eu-org.html)
 
-# [Link to another page](./another-page.html).
+>免费的谁不爱呢~
