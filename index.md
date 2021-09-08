@@ -2,7 +2,8 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+
+[怎么让telegram的用户名动态显示emoji形式的时间?](./telegram-username-emoji-time.html)
 
 [Link to another page](./another-page.html).
 
