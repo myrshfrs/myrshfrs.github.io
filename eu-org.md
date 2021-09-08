@@ -9,7 +9,7 @@ author: zhangwf
 
 申请成功之后，我做了这些事情：
 
-* 把NS改成cloudflare
+* 把NS改成cloudflare；
 * 用improvmx做了域名邮箱，免费版可以设置一个域名，25个别名，附件限制10Mb。也可以通过gmail实现smtp发信。目前对于我是够用了。
 
 [back](./)

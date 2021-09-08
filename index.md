@@ -12,3 +12,7 @@ layout: default
 # [分享一下eu.org免费域名的申请和使用](./eu-org.html)
 
 >免费的谁不爱呢~
+
+# [使用feed43给任意网站创建RSS订阅](./creat-rss-with-feed43.html)
+
+>想要通过RSS更方便地整合不同渠道的信息，但是有很多网站并不提供RSS订阅服务。我们可以通过[feed43](https://feed43.com)可以自己给喜欢的网站创建RSS订阅。
