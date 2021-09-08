@@ -15,9 +15,9 @@ author: zhangwf
 
 第二步，在源码中找到想要订阅的部分。可以直接CTRL+F搜索。比如我想订阅最新的新闻，第一条是“Cherry推出Stream Desktop Recharge可充电无线键鼠套装”，直接搜索“Cherry”，就可以在源码中找到这部分.然后需要找到这部分完整的源码，方法就是再找一两个同级的项目，比如下面两条新闻，在源码中看看这两条的源码都有哪些共同的，然后选一个复制粘贴到Item (repeatable) Search Pattern中。
 
-![cnbeta](https://images2.imgbox.com/b4/7d/KnZKg6ek_o.png)
+![cnbeta](/assets/img/creat-rss-with-feed43/feed43-2.PNG)
 
-![source](https://images2.imgbox.com/c6/c6/53I4nBEY_o.png)
+![source](/assets/img/creat-rss-with-feed43/feed43-3.PNG)
 
 这是我找到的一条新闻完整的源码。
 
@@ -40,31 +40,31 @@ author: zhangwf
 ```
 这是我把上面粘贴到Item (repeatable) Search Pattern中编辑出来的Search Pattern。`%`代表我需要的内容，`*`代表忽略的内容。注意每行后面必须都要加上`*`。
 
-![pattern code](https://images2.imgbox.com/38/23/OykLmupq_o.png)
+![pattern code](/assets/img/creat-rss-with-feed43/feed43-10.PNG)
 
-![pattern](https://images2.imgbox.com/7c/8d/EoKcvOPA_o.png)
+![pattern](/assets/img/creat-rss-with-feed43/feed43-4.PNG)
 
 编辑好Item (repeatable) Search Pattern之后，点击Extract。如果Pattern没问题的话，会提示“OK (XX items found)”，并且在下面能看到每条item的内容。如果没找到或者报错的话就再调整Pattern。下面是extracted出来的内容。每个item有10个参数（上面我们用`%`选择的内容）。
 
-![extracted](https://images2.imgbox.com/17/89/lFqyYvft_o.png)
+![extracted](/assets/img/creat-rss-with-feed43/feed43-5.PNG)
 
 第三步，利用上一步中extract出来的参数，调整输出的格式。格式可以根据自己需要自己调整，下面是我弄的格式。
 
 RSS feed properties：
 
-![RSS feed properties](https://images2.imgbox.com/81/13/NDxvxFXn_o.png)
+![RSS feed properties](/assets/img/creat-rss-with-feed43/feed43-6.PNG)
 
 RSS item properties：
 
-![RSS item properties](https://images2.imgbox.com/78/4b/Q90LUKNT_o.png)
+![RSS item properties](/assets/img/creat-rss-with-feed43/feed43-7.PNG)
 
 RSS feed输出效果：
 
-![RSS feed output](https://images2.imgbox.com/f3/42/Tk81ZrkI_o.png)
+![RSS feed output](/assets/img/creat-rss-with-feed43/feed43-8.PNG)
 
 RSS item输出效果，由于是免费版，输出带有小尾巴：
 
-![RSS item output](https://images2.imgbox.com/86/54/oddmJbzO_o.png)
+![RSS item output](/assets/img/creat-rss-with-feed43/feed43-9.PNG)
 
 下面是我用feed43生成的cnBeta RSS订阅链接，欢迎尝试：
 
