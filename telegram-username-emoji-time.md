@@ -65,7 +65,7 @@ asyncio.get_event_loop().run_until_complete(main())
 
 ```
 
-注意，你需要把脚本里的api_id和api_hash换成自己的。详情见[怎么申请api](https://core.telegram.org/api/obtaining_api_id)
+注意，你需要把脚本里的api_id和api_hash换成自己的。详情见[怎么申请api](https://core.telegram.org/api/obtaining_api_id)。
 
 然后，手动运行一下脚本，看看有没有错误，没有错误的话第一次运行需要登录你的telegram账号。输入手机号码的时候注意带上国际电话区号。比如：+86133XXXXXXXX。然后输入其他客户端或者手机短信收到的code。登录成功之后我们就可以把脚本关掉了，然后用systemd使它保持开机自启和后台运行。
 
