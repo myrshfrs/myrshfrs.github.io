@@ -9,6 +9,8 @@ layout: default
 
 >![username_with_emoji_time](https://images2.imgbox.com/4b/9f/MxCZgbGK_o.png)
 
+# [分享一下eu.org免费域名的申请和使用](./eu-org.html)
+
 # [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
