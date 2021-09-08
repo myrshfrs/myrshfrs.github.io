@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
+author: 晴雯囡囡
+date: 2021-09-01
+title: 我们的热恋期
 ---
-
-## 我们的热恋期
 
 哈哈哈，接昨天的小故事，，，，
 
